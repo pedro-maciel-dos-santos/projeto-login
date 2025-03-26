@@ -8,6 +8,7 @@
 
     section#login {
         width: 80vw;
+        height: 280px
     }
 
     section#login > div#imagem {
@@ -31,6 +32,7 @@
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -50,6 +52,14 @@
     }
 
     div#form > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    div.campo > input[type=email] {
+        transform: translatey(-11px);
+    }
+    div.campo > input[type=password] {
+        transform: translatey(-12px);
     }
 }
